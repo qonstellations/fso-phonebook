@@ -106,7 +106,4 @@ app.delete('/api/persons/:id', (req, res) => {
     }
 })
 
-const PORT = process.env.PORT || 3001
-app.listen(PORT, () => {
-    console.log(`phonebook server started on port ${PORT}`)
-})
+export default app
