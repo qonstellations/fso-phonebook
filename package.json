@@ -1,0 +1,27 @@
+{
+  "name": "fso-phonebook",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/qonstellations/fso-phonebook#readme",
+  "bugs": {
+    "url": "https://github.com/qonstellations/fso-phonebook/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qonstellations/fso-phonebook.git"
+  },
+  "license": "ISC",
+  "author": "qonstellations",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --env-file=.env index.js",
+    "dev": "node --env-file=.env --watch index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "morgan": "^1.12.1"
+  }
+}
